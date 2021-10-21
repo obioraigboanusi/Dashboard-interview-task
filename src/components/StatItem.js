@@ -1,14 +1,14 @@
 import React from "react";
 
-function StatItem() {
+function StatItem({ item }) {
   return (
     <li className="stats-item">
       <div>
-        <i>i</i>
+        <i class="fa fa-user" aria-hidden="true"></i>
       </div>
       <div>
-        <span>30</span>
-        <span>Patients</span>
+        <span className="bold">{item.size}</span>
+        <span>{item.category}</span>
       </div>
     </li>
   );

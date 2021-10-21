@@ -1,18 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Sidebar() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="sidebar">
       <nav>
         <ul>
-          <li >
+          <li>
             <Link to="/">Dashboard</Link>
           </li>
           <li className="link">
-            <span>Results</span>
-            {true && (
-              <ul>
+            <span   onClick={() => setIsOpen(!isOpen)}>Results</span>
+            {isOpen && (
+              <ul className="sub">
                 <li>
                   <Link to="/results/upload-results">Upload Results</Link>
                 </li>

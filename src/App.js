@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Dashboard from "./components/Dashboard";
-import UploadResults from "./components/UploadResults";
-import ViewResults from "./components/ViewResults";
+import Dashboard from "./Screens/Dashboard";
+import UploadResults from "./Screens/UploadResults";
+import ViewResults from "./Screens/ViewResults";
 function App() {
   return (
     <BrowserRouter>
