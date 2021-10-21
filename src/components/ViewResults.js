@@ -1,7 +1,7 @@
 import React from "react";
 
 function ViewResults() {
-  return <div>ViewResults</div>;
+  return <div>View Results</div>;
 }
 
 export default ViewResults;

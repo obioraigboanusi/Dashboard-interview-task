@@ -2,8 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <section className="header">
-      <div>
+    <section className="header card">
         <div>
           <img src="" alt="bell" />
         </div>
@@ -14,7 +13,7 @@ function Header() {
         <div>
           <img src="" alt="user avatar" />
         </div>
-      </div>
+      
     </section>
   );
 }

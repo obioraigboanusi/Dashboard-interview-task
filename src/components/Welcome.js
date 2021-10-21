@@ -2,8 +2,7 @@ import React from "react";
 
 function Welcome() {
   return (
-    <section>
-      <div>
+    <section className="card">
         <div>
           <h3>
             welcom <i>smile</i>
@@ -14,7 +13,7 @@ function Welcome() {
           <span>Logged in as:</span>
           <span>Mr. Boss</span>
         </div>
-      </div>
+    
     </section>
   );
 }

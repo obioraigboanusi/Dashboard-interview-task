@@ -21,9 +21,9 @@ function Stats() {
       </div>
       <div>
         <ul>
-          {user.map((item, index) => {
-            return <li key={index}>items</li>;
-          })}
+          {user.map((item, index) => (
+            <li key={index}>items</li>
+          ))}
         </ul>
       </div>
     </section>
