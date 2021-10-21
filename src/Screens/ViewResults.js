@@ -53,7 +53,7 @@ function ViewResults() {
             </thead>
             <tbody>
               {data.map(({ id, name, date }, index) => (
-                <tr>
+                <tr key={index}>
                   <td>{id}</td>
                   <td>{name}</td>
                   <td>{date}</td>
